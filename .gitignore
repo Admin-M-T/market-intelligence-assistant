@@ -1,0 +1,16 @@
+# Never push these to GitHub
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# ChromaDB is large and rebuilt from PDFs — don't push it
+data/chroma_db/
+
+# Keep sample_docs but gitignore any sensitive PDFs you add later
+# data/sample_docs/
+
+# Streamlit cache
+.streamlit/
