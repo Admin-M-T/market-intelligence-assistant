@@ -8,6 +8,13 @@
 
 import streamlit as st
 from rag.chain import ask
+from pathlib import Path
+from rag.ingest import run_ingest
+
+# Auto-build index if it doesn't exist
+if not Path("data/chroma_db").exists():
+    with st.spinner("Building index for the first time — this takes 2-3 minutes…"):
+        run_ingest()
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
