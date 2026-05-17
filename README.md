@@ -2,7 +2,7 @@
 
 A RAG (Retrieval-Augmented Generation) system that answers strategic business questions grounded in FMCG and Healthcare documents — earnings transcripts, market reports, and analyst filings.
 
-**[🚀 Live Demo](https://your-app.streamlit.app)** &nbsp;|&nbsp; Built by [Varun Jain](https://github.com/admin-M-T)
+**[🚀 Live Demo](https://https://varun-market-intelligence-rag.streamlit.app/)** &nbsp;|&nbsp; Built by [Varun Jain](https://github.com/admin-M-T)
 
 ---
 
